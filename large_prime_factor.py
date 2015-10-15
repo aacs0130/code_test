@@ -18,7 +18,7 @@ def large_prime_factor(num):
 
 
 def test_if_prime(num):
-    half = num ** 0.5
+    half = int(num ** 0.5)
     for i in range(2, half+1):
         if num % i == 0:
             return False
